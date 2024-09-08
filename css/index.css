@@ -1,0 +1,11 @@
+.navbar {
+  position: fixed; /* Asegura que la navbar se quede fija en la parte superior */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.main-content {
+  margin-top: 70px; /* Ajusta este valor al tamaño de tu navbar para asegurarte de que las cards no queden ocultas */
+}
